@@ -1,4 +1,4 @@
-# React Styleguidist basic example style guide
+# React Styleguidist example style guide
 
 See [deployed version](http://react-styleguidist.js.org/).
 
@@ -7,8 +7,8 @@ See [deployed version](http://react-styleguidist.js.org/).
 How to start locally:
 
 ```
-git clone https://github.com/sapegin/react-styleguidist.git
-cd react-styleguidist/examples/basic
+git clone https://github.com/sapegin/react-styleguidist-example.git
+cd react-styleguidist-example
 npm install
 npm run styleguide-server
 ```

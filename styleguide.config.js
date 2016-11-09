@@ -3,7 +3,7 @@ const path = require('path');
 module.exports = {
 	title: 'React Style Guide Example',
 	defaultExample: true,
-	components: './components/**/[A-Z]*.js',
+	components: './lib/components/**/[A-Z]*.js',
 	updateWebpackConfig(webpackConfig) {
 		const dir = path.resolve(__dirname, 'lib');
 		webpackConfig.module.loaders.push(

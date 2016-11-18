@@ -7,7 +7,7 @@ See [deployed version](http://react-styleguidist.js.org/).
 How to start locally:
 
 ```
-git clone https://github.com/sapegin/react-styleguidist-example.git
+git clone https://github.com/styleguidist/example.git react-styleguidist-example
 cd react-styleguidist-example
 npm install
 npm run styleguide-server

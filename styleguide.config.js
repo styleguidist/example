@@ -8,7 +8,7 @@ module.exports = {
 		const dir = path.resolve(__dirname, 'lib');
 		return {
 			module: {
-				rules: [
+				loaders: [
 					{
 						test: /\.jsx?$/,
 						include: dir,

@@ -10,7 +10,7 @@ How to start locally:
 git clone https://github.com/styleguidist/example.git react-styleguidist-example
 cd react-styleguidist-example
 npm install
-npm run styleguide-server
+npm start
 ```
 
-Then open [http://localhost:3000](http://localhost:3000) in your browser.
+Then open [http://localhost:6060](http://localhost:6060) in your browser.

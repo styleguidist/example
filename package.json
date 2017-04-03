@@ -28,7 +28,7 @@
     "react-dom": "~15.4.2",
     "react-modal": "~1.7.3",
     "react-styleguidist": "^5.0.0",
-    "reactabular-table": "^8.6.0",
+    "reactabular-table": "^8.7.2",
     "webpack": "^2.3.2"
   },
   "scripts": {

@@ -12,6 +12,11 @@ const columns = [
     header: {
       label: 'Name',
     },
+    cell: {
+        transforms: [a => ({
+            children: a,
+        })],
+    },
   },
 ];
 <Table.Provider columns={columns}>

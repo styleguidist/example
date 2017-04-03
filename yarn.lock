@@ -3728,9 +3728,9 @@ react@~15.4.2:
     loose-envify "^1.1.0"
     object-assign "^4.1.0"
 
-reactabular-table@^8.6.0:
-  version "8.6.0"
-  resolved "https://registry.yarnpkg.com/reactabular-table/-/reactabular-table-8.6.0.tgz#4b88edff98b378bdc12a4aa06579ca53e192db43"
+reactabular-table@^8.7.2:
+  version "8.7.2"
+  resolved "https://registry.yarnpkg.com/reactabular-table/-/reactabular-table-8.7.2.tgz#84408eddb5fabf4ad27bbb1db633566769c0b02a"
   dependencies:
     classnames "^2.2.5"
 

@@ -1,15 +1,21 @@
-Basic button:
-
-    <Button>Push Me</Button>
-
-Big pink button:
-
-    <Button size="large" color="deeppink">Lick Me</Button>
-
-And you *can* **use** `any` [Markdown](http://daringfireball.net/projects/markdown/) here.
-
-If you define a fenced code block with a language flag it will be rendered as a regular Markdown code snippet:
-
-```javascript
-import React from 'react';
+```
+const Table = require('reactabular-table');
+const rows = [
+    {
+        id: 1,
+        name: 'Loki',
+    },
+];
+const columns = [
+  {
+    property: 'name',
+    header: {
+      label: 'Name',
+    },
+  },
+];
+<Table.Provider columns={columns}>
+  <Table.Header />
+  <Table.Body rows={rows} rowKey="id" />
+</Table.Provider>
 ```

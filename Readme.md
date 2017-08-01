@@ -1,6 +1,6 @@
 # React Styleguidist example style guide
 
-See [deployed version](http://react-styleguidist.js.org/).
+See [deployed version](https://react-styleguidist.js.org/examples/basic/).
 
 ![](http://wow.sapegin.me/3q0F1Y1P321k/Image%202016-04-12%20at%207.25.03%20PM.png)
 

@@ -27,11 +27,18 @@
     "react-dom": "^15.6.1",
     "react-modal": "^2.2.2",
     "react-styleguidist": "^6.0.4",
+    "typescript": "^2.6.2",
     "webpack": "^3.4.1"
   },
   "scripts": {
     "start": "styleguidist server",
     "styleguide": "styleguidist server",
     "styleguide:build": "styleguidist build"
+  },
+  "devDependencies": {
+    "@types/react": "^16.0.34",
+    "@types/react-dom": "^16.0.3",
+    "react-docgen-typescript": "^1.2.3",
+    "ts-loader": "^3.3.0"
   }
 }

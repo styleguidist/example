@@ -1,24 +1,24 @@
-import React, { PropTypes } from 'react';
+import React from 'react';
+import PropTypes from 'prop-types';
 
 import s from './Button.css';
 
 /**
  * The only true button.
  */
-export default function Button({
-	color,
-	size,
-	children,
-}) {
+export default function Button({ color, size, children }) {
 	let styles = {
 		color,
 		fontSize: Button.sizes[size],
 	};
 
 	return (
-		<button className={s.root} style={styles}>{children}</button>
+		<button className={s.root} style={styles}>
+			{children}
+		</button>
 	);
 }
+
 Button.propTypes = {
 	/**
 	 * Button label.

@@ -1,24 +1,24 @@
-import React, { PropTypes } from 'react';
+import React from 'react';
+import PropTypes from 'prop-types';
 
 import s from './PushButton.css';
 
 /**
  * An example-less button.
  */
-export default function PushButton({
-	color,
-	size,
-	children,
-}) {
+export default function PushButton({ color, size, children }) {
 	let styles = {
 		color,
 		fontSize: PushButton.sizes[size],
 	};
 
 	return (
-		<button className={s.root} style={styles}>{children}</button>
+		<button className={s.root} style={styles}>
+			{children}
+		</button>
 	);
 }
+
 PushButton.propTypes = {
 	/**
 	 * PushButton label.

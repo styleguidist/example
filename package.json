@@ -26,7 +26,11 @@
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
     "react-styleguidist": "^6.2.7",
+    "markdown-to-jsx": "6.4.1",
     "webpack": "^3.4.1"
+  },
+  "resolutions": {
+    "react-styleguidist/markdown-to-jsx": "6.4.1"
   },
   "scripts": {
     "start": "styleguidist server",

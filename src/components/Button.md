@@ -3,6 +3,7 @@ Basic button:
 ```jsx
 <Button>Push Me</Button>
 ```
+<div>Parent<div>child</div></div>
 
 Big pink button:
 

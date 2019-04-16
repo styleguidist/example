@@ -3,7 +3,7 @@ module.exports = {
 	defaultExample: true,
 	webpackConfig: {
 		module: {
-			loaders: [
+			rules: [
 				{
 					test: /\.jsx?$/,
 					exclude: /node_modules/,
@@ -11,7 +11,16 @@ module.exports = {
 				},
 				{
 					test: /\.css$/,
-					loader: 'style-loader!css-loader?modules&importLoaders=1',
+					use: [
+						'style-loader',
+						{
+							loader: 'css-loader',
+							options: {
+								importLoaders: 1,
+								modules: true
+							}
+						},
+					],
 				},
 			],
 		},

@@ -1,37 +1,19 @@
-Basic button:
+Actually not a button. Here's the weird bug:
 
-```jsx
-<Button>Push Me</Button>
-```
-
-Big pink button:
-
-```jsx
-<Button size="large" color="deeppink">Lick Me</Button>
-```
-
-And you *can* **use** `any` [Markdown](http://daringfireball.net/projects/markdown/) here.
-
-Fenced code blocks with `js`, `jsx` or `javascript` languages are rendered as a interactive playgrounds:
-
-```jsx
-<Button>Push Me</Button>
-```
-
-You can disable an editor by passing a `noeditor` modifier (```` ```js noeditor````):
-
-```jsx noeditor
-<Button>Push Me</Button>
-```
-
-To render an example as highlighted source code add a `static` modifier: (```` ```js static````):
-
-```js static
-import React from 'react';
-```
-
-Fenced blocks with other languages are rendered as highlighted code:
-
-```html
-<h1>Hello world</h1>
-```
+<div>
+    <div>
+        <div>Hello</div>
+        <div>How are you?</div>
+        <div>I am good thank you</div>
+    </div>
+    <div>
+        <div>Hello</div>
+        <div>How are you?</div>
+        <div>I am good thank you</div>
+    </div>
+    <div>
+        <div>Hello</div>
+        <div>How are you?</div>
+        <div>I am good thank you</div>
+    </div>
+</div>

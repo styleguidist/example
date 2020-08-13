@@ -1,6 +1,12 @@
 module.exports = {
 	title: 'React Style Guide Example',
 	defaultExample: true,
+	theme: {
+		fontSize: {
+			base: 32,
+			text: 45,
+		},
+	},
 	webpackConfig: {
 		module: {
 			rules: [

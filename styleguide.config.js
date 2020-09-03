@@ -3,7 +3,7 @@ module.exports = {
 	defaultExample: true,
 	webpackConfig: {
 		devServer: {
-			disableHostCheck: process.env.CODESANDBOX_SSE ? true : false,
+			disableHostCheck: !!process.env.CODESANDBOX_SSE,
 		},
 		module: {
 			rules: [

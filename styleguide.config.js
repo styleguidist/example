@@ -2,6 +2,9 @@ module.exports = {
 	title: 'React Style Guide Example',
 	defaultExample: true,
 	webpackConfig: {
+		devServer: {
+			disableHostCheck: process.env.CODESANDBOX_SSE ? true : false,
+		},
 		module: {
 			rules: [
 				{

@@ -1,6 +1,12 @@
 module.exports = {
 	title: 'React Style Guide Example',
 	defaultExample: true,
+	theme: {
+		fontSize: {
+			base: 32,
+			text: 45,
+		},
+	},
 	webpackConfig: {
 		devServer: {
 			// Docs: https://codesandbox.io/docs/environment#how-can-i-tell-if-i-am-in-a-container-sandbox
